@@ -1,4 +1,4 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import Chirp from "./components/Chirp";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
             msg: "Sitting on a tuffet rn"
         }, 
         {
-            user: "Strongbad",
+            user: "StrongBad",
             msg: "*Chirper has censored this message*"
         }]);
 
