@@ -1,0 +1,46 @@
+.chirp {
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#msgForm {
+    top: 72px;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 1em;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#msgContainer {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    right: 0px;
+}
+
+#chirpHead {
+    text-align: center;
+}
+
+#writeUser {
+    
+}
+
+#writeChirp {
+    
+}
+
+#chirpUser {
+    padding-left: 15px;
+    color: palevioletred;
+}
+
+#chirpMsg {
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-wrap: break-word;
+}
